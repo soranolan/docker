@@ -11,4 +11,9 @@ public class HelloHubot {
 		return "Hello Hubot!";
 	}
 	
+	@GetMapping("/world")
+	public String helloWorld() {
+		return "Hello World!";
+	}
+	
 }
